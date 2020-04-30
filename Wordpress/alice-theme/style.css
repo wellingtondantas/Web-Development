@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+	Theme Name: ALICE ARAGAO
+	Theme URI: https://alicearagao.com.br
+	Description: Projeto desenvolvido usando HTML, CSS, JAVASCRIPT, PHP, MYSQL.
+	Version: 1.0
+	Author: WELLINGTON DANTAS
+	Author URI: http://www.wellingtondantas.com.br
+*/
+
+
+/*--------------------------------------------------------------
+# topicos gerais
+--------------------------------------------------------------*/
+
+.header-font-1 h1, .header-font-1 h2, .header-font-1 h3, .header-font-1 h4, .header-font-1 h5, .header-font-1 h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.featured-content-wrapper .entry-content p, #featured-slider article .entry-content{
+    font-size:20px;
+}
+
+#botaocliqueaqui{
+    background:#31d831; 
+    float:left; 
+    width:100%; 
+    padding:20px 0px; 
+    font-size:16px; 
+    text-align:center; 
+    color:#fff;
+}
+
+#botaocliqueaqui:hover{
+    background:#d89627; 
+    float:left; 
+    width:100%; 
+    padding:20px 0px; 
+    font-size:16px; 
+    text-align:center; 
+    color:#fff;
+}
+
+#gallery article .gallery-item-wrapper{
+    
+    box-shadow:0 5px 30px rgba(105, 106, 119, 0.58);
+}
+
+/*--------------------------------------------------------------
+#gallery article .entry-title{
+    font-weight:normal;
+}
+
+#blog.blog-posts-wrapper .entry-title{
+    font-weight:normal;
+}
+
+#page-site-header .page-title{
+    font-weight:normal;
+}
+/*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
+# Top-Top
+--------------------------------------------------------------*/
+
+#top-bar{
+    background:#d89627;
+}
+
+#top-bar .widget_address_block ul li a {
+    color: rgba(255,255,255,.7);
+}
+
+#top-bar .widget_address_block ul li a:hover,
+#top-bar .widget_address_block ul li a:focus {
+    color: rgba(255,255,255);
+}
+
+#top-bar .widget_address_block ul li {
+    color: rgba(255,255,255,.7);
+    margin-right: 30px;
+}
+#top-bar .widget_address_block ul li:last-child {
+    margin-right: 0;
+}
+#top-bar .widget_address_block ul li a {
+    color: rgba(255,255,255,.7);
+}
+#top-bar .widget_address_block ul li a:hover,
+#top-bar .widget_address_block ul li a:focus {
+    color: rgba(255,255,255);
+}
+
+#top-bar .social-icons a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: rgba(255,255,255,.7);
+}
+#top-bar .social-icons a:hover,
+#top-bar .social-icons a:focus {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 992px){
+    #top-bar.col-2 .widget + .widget {
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    #top-bar .widget_address_block ul li {
+        color: rgba(255,255,255,.7);
+        margin-right: 20px;
+        text-align:center;
+        width:100%;
+    }
+    
+}
+
+/*--------------------------------------------------------------
+# Logomarca
+--------------------------------------------------------------*/
+
+#logotipo{
+	margin:0px;
+	padding:0px;
+	width:340px;
+	height:67px;
+	float:left;
+}
+
+#logotipo #logo{
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+float:left;
+text-indent:-5000px;
+}
+
+#logotipo #logo:hover {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	float:left;
+	filter:alpha(opacity=7);
+	-moz-opacity:.7;
+	opacity:0.7;
+}
+
+#logotipo a:link, #logotipo a:active, #logotipo a:visited {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	float:left;
+	text-indent:-5000px;
+}
+
+#logotipo a #logo {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+#logotipo a:hover {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	float:left;
+	opacity:0.9;
+	text-indent:-5000px;
+}
+
+/*--------------------------------------------------------------
+# Menu
+--------------------------------------------------------------*/
+.menu-primary-container .nav-menu li a {
+    font-family:'Sorts Mill Goudy', serif;
+    font-weight:500;
+}
+
+.main-navigation ul.nav-menu > li > a{
+    color:#606062;
+}
+
+.main-navigation ul ul li a{
+    color:#606062;
+}
+/*--------------------------------------------------------------
+# Escrita dinamica
+--------------------------------------------------------------*/
+
+.bannerpalavra{
+    margin-top:40px;
+    
+}
+
+.fundoescrita{
+    z-index:1;
+    margin-top:-400px;
+}
+
+#escritadinamicadiv{
+    max-height:500px;
+    background:#d89627;
+}
+
+@media screen and (max-width: 767px) {
+
+    #escritadinamicadiv{
+        min-height:500px;
+        background:#d89627;
+    }
+    
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#colophon {
+    background-color: #d89627;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.site-info {
+    background-color: #fff;
+    padding: 18px 0;
+    line-height: 1.5;
+}
+
+/*--------------------------------------------------------------
+# Page o Escritorio
+--------------------------------------------------------------*/
+
+
+#page-site-header {
+    padding: 100px 0;
+}
+
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+
+
+.featured-content-wrapper .entry-title{
+    font-weight:500;
+    font-size:42px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+
+
+
+
+
+
+
+
+
+
